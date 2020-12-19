@@ -1,0 +1,230 @@
+body {
+  background-image: Radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  color: #F7F7F7;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* Header Section CSS */
+.header {
+  padding: 2% 4%;
+}
+
+.header .container {
+  margin-top: 100px;
+  border-radius: 15px;
+  border: #F7F7F7 2px solid;
+}
+
+/* .header nav {
+  border-radius: 15px;
+  border: #F7F7F7 2px solid;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 0 150px;
+
+} */
+
+.header h1 {
+  line-height: 1;
+}
+
+.header button {
+  float: right;
+  margin-top: 4%;
+}
+
+.score {
+  color: dark-grey;
+  font-weight: 600;
+}
+
+.digit-score {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+
+/* Main Section CSS */
+.main {
+  position: relative;
+}
+
+.main .container {
+  position: relative;
+  text-align: center;
+}
+
+.triangle {
+  margin-top: 200px;
+}
+
+.scissor, .rock, .paper,.user-selected,.computer-selected {
+  border-radius: 100%;
+  background-color: #F7F7F7;
+  width: 120px;
+  height: 120px;
+  padding: 30px;
+}
+
+.scissor {
+  position: absolute;
+  left: 36%;
+  bottom: 42%;
+  border: 10px solid #E3405D;
+}
+
+.rock {
+  position: absolute;
+  left: 54%;
+  bottom: 42%;
+  border: 10px solid #ECA319;
+}
+
+.paper {
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  border: 10px solid #516DF5;
+
+}
+
+/* Selected Section CSS */
+.selected {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.user-selected {
+  border: 10px solid #E3405D;
+}
+
+.computer-selected{
+  border: 10px solid #516DF5;
+}
+/* Rule Section CSS */
+
+.rule-button {
+  position: fixed;
+  left: 90%;
+}
+
+
+/* #F7F7F7 */
+
+
+
+.visibilty {
+  display: none !important;
+}
+
+
+@media only screen and (max-width: 1200px) {
+ 
+  .scissor {
+    
+    left: 30%;
+    bottom: 42%;
+   
+  }
+  
+  .rock {
+    
+    left: 55%;
+    bottom: 42%;
+   
+  }
+  
+  .paper {
+    left: 44%;
+    bottom: 0;
+
+  
+  }
+
+
+}
+
+@media only screen and (max-width: 950px) {
+ 
+  .scissor {
+    
+    left: 20%;
+    bottom: 42%;
+   
+  }
+  
+  .rock {
+    
+    left: 60%;
+    bottom: 42%;
+   
+  }
+  
+  .paper {
+    left: 42%;
+    bottom: 0;
+
+  
+  }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+ 
+  .scissor {
+    
+    left: 20%;
+    bottom: 42%;
+   
+  }
+  
+  .rock {
+    
+    left: 60%;
+    bottom: 42%;
+   
+  }
+  
+  .paper {
+    left: 42%;
+    bottom: 0;
+
+  
+  }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+ 
+  .scissor {
+    
+    left: 0;
+    bottom: 42%;
+   
+  }
+  
+  .rock {
+    
+    left: 70%;
+    bottom: 42%;
+   
+  }
+  
+  .paper {
+    left: 33%;
+  
+  }
+
+
+}
